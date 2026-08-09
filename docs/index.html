@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EE Mobile Call Flow</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📶</text></svg>">
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+
+  <div class="app">
+    <aside class="sidebar sidebar-left" aria-label="Quick access">
+      <div class="brand">EE Mobile</div>
+      <a class="switcher" href="https://nbalabanovic.github.io/Sales-Conversation-Assistant/">Switch to Broadband flow</a>
+
+      <div class="sidebar-label">Jump to</div>
+      <button class="side-btn" data-panel="cards">Battle Cards</button>
+      <button class="side-btn" data-panel="objections">Objections</button>
+      <button class="side-btn" data-panel="factfind">Fact-Find</button>
+      <button class="side-btn" data-panel="pic">PIC Library</button>
+      <button class="side-btn" data-panel="whyee">Why EE</button>
+      <button class="side-btn" data-panel="esn">ESN Proof</button>
+      <button class="side-btn" data-panel="rules">Do / Don't</button>
+    </aside>
+
+    <main class="stage">
+      <div class="rail" id="stageRail" aria-label="Call stage"></div>
+      <div class="ctx-bar" id="ctxBar" aria-label="Call context"></div>
+      <div id="view"></div>
+    </main>
+
+    <aside class="sidebar sidebar-right" aria-label="Call controls">
+      <div class="sidebar-label">Controls</div>
+      <button class="side-btn ctrl" id="backBtn" title="Back one step">Back</button>
+      <button class="side-btn ctrl" id="restartBtn" title="Restart the call">Restart</button>
+    </aside>
+  </div>
+
+  <div class="overlay" id="overlay" hidden>
+    <div class="overlay-panel" role="dialog" aria-modal="true">
+      <div class="overlay-head">
+        <h2 id="overlayTitle"></h2>
+        <button class="ghost-btn" id="overlayClose" aria-label="Close panel">Close</button>
+      </div>
+      <div class="overlay-body" id="overlayBody"></div>
+    </div>
+  </div>
+
+  <script src="data.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>

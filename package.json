@@ -1,0 +1,9 @@
+{
+  "name": "ee-mobile-call-assistant",
+  "version": "1.0.0",
+  "description": "EE business mobile cold call assistant. Core Four questions, pain to PIC, competitor battle cards.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}
