@@ -1,27 +1,27 @@
 /* Mobile call assistant — console styling.
-   Cool neutrals, squared geometry, monospace for labels and data,
+   Warm off-white ground, squared geometry, monospace for labels and data,
    a signal-strength meter for call stage. Light and dark both designed.
-   Amber accent; red and green reserved for the avoid and attack sides. */
+   Teal accent; red and green reserved for the avoid and attack sides. */
 
 :root {
-  --bg: #edeff2;
+  --bg: #faf9f4;
   --panel: #ffffff;
-  --panel-2: #e3e6eb;
-  --line: #ccd2da;
-  --line-strong: #a6afbb;
-  --ink: #10130f;
-  --muted: #545c62;
-  --accent: #8a5000;
-  --accent-fill: #ffb020;
-  --accent-ink: #1a1200;
-  --accent-soft: #fdf0d8;
-  --danger: #a8291d;
-  --danger-soft: #fbe7e4;
-  --danger-line: #e6c3bd;
-  --good: #0d6b45;
-  --good-soft: #dcefe5;
-  --good-line: #a9d3bf;
-  --shadow: 0 12px 32px rgba(16, 19, 15, 0.16);
+  --panel-2: #f1f0ea;
+  --line: #e5e2d9;
+  --line-strong: #d5d0c4;
+  --ink: #1f2422;
+  --muted: #666d69;
+  --accent: #075356;
+  --accent-fill: #0a6f72;
+  --accent-ink: #ffffff;
+  --accent-soft: #e6f0ef;
+  --danger: #a63a2b;
+  --danger-soft: #fbeeeb;
+  --danger-line: #e8cfc8;
+  --good: #3f7048;
+  --good-soft: #ecf3ec;
+  --good-line: #cadec9;
+  --shadow: 0 12px 32px rgba(31, 36, 34, 0.16);
 
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
@@ -29,45 +29,45 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0b0d0a;
-    --panel: #151913;
-    --panel-2: #1f2419;
-    --line: #2b3226;
-    --line-strong: #434c3b;
-    --ink: #eceee8;
-    --muted: #98a094;
-    --accent: #ffb020;
-    --accent-fill: #ffb020;
-    --accent-ink: #1a1200;
-    --accent-soft: #241a05;
-    --danger: #ff7a6b;
-    --danger-soft: #2a1310;
-    --danger-line: #4d2019;
-    --good: #46cf92;
-    --good-soft: #0f2620;
-    --good-line: #204c3b;
+    --bg: #101413;
+    --panel: #171d1c;
+    --panel-2: #202826;
+    --line: #2a3331;
+    --line-strong: #3f4a48;
+    --ink: #e9eeec;
+    --muted: #94a09d;
+    --accent: #5cc6c9;
+    --accent-fill: #0f8a8e;
+    --accent-ink: #ffffff;
+    --accent-soft: #102b2c;
+    --danger: #e8867a;
+    --danger-soft: #2a1815;
+    --danger-line: #4a2822;
+    --good: #6fb37e;
+    --good-soft: #16241a;
+    --good-line: #2c4632;
     --shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
   }
 }
 
 :root[data-theme="dark"] {
-  --bg: #0b0d0a;
-  --panel: #151913;
-  --panel-2: #1f2419;
-  --line: #2b3226;
-  --line-strong: #434c3b;
-  --ink: #eceee8;
-  --muted: #98a094;
-  --accent: #ffb020;
-  --accent-fill: #ffb020;
-  --accent-ink: #1a1200;
-  --accent-soft: #241a05;
-  --danger: #ff7a6b;
-  --danger-soft: #2a1310;
-  --danger-line: #4d2019;
-  --good: #46cf92;
-  --good-soft: #0f2620;
-  --good-line: #204c3b;
+  --bg: #101413;
+  --panel: #171d1c;
+  --panel-2: #202826;
+  --line: #2a3331;
+  --line-strong: #3f4a48;
+  --ink: #e9eeec;
+  --muted: #94a09d;
+  --accent: #5cc6c9;
+  --accent-fill: #0f8a8e;
+  --accent-ink: #ffffff;
+  --accent-soft: #102b2c;
+  --danger: #e8867a;
+  --danger-soft: #2a1815;
+  --danger-line: #4a2822;
+  --good: #6fb37e;
+  --good-soft: #16241a;
+  --good-line: #2c4632;
   --shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
 }
 
